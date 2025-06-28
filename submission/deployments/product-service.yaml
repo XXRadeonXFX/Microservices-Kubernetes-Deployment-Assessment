@@ -20,22 +20,15 @@ spec:
           env:
             - name: NODE_ENV
               value: "production"
-          resources:
-            requests:
-              memory: "128Mi"
-              cpu: "100m"
-            limits:
-              memory: "256Mi"
-              cpu: "250m"
           livenessProbe:
             httpGet:
-              path: /
+              path: /products
               port: 3001
             initialDelaySeconds: 5
             periodSeconds: 10
           readinessProbe:
             httpGet:
-              path: /
+              path: /products
               port: 3001
             initialDelaySeconds: 5
             periodSeconds: 10
