@@ -148,7 +148,7 @@ kubectl delete -f submission/ingress/
 
 - **👨‍💻 Name:** Prince Thakur
 - **💼 Role:** DevOps / Data Engineer
-- **📧 Contact:** [LinkedIn]([https://www.linkedin.com/in/princethakur](https://www.linkedin.com/in/prince-thakur-9b6ba3274/))
+- **📧 Contact:** [LinkedIn](https://www.linkedin.com/in/prince-thakur-9b6ba3274/)
 
 ---
 
