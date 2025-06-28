@@ -103,30 +103,47 @@ Once port-forwarded, test all services via these endpoints:
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3000/users`        | User service users list |
 
+![users-service](submission/screenshots/users-service.png)
+
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3001/products`     | Product service items   |
+
+![products-service](submission/screenshots/products-service.png)
 
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3002/orders`       | Order service list      |
 
+ ![orders-service](submission/screenshots/orders-service.png)
+
+
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3003/health`       | Gateway health check    |
- ![Alt Text](submission/screenshots/gateway-health.png)
+
+ ![gateway-health](submission/screenshots/gateway-health.png)
 
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- | 
 | `http://localhost:3003/api/users`    | Users from gateway      |
 
+![gateway-users](submission/screenshots/gateway-users.png)
+
+
+
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3003/api/products` | Products from gateway   |
 
+![gateway-products](submission/screenshots/gateway-products.png)
+
+
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3003/api/orders`   | Orders from gateway     |
+
+![gateway-orders](submission/screenshots/gateway-orders.png)
 
 ### Sample curl tests:
 
