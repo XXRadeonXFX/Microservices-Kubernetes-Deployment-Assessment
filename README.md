@@ -102,6 +102,8 @@ Once port-forwarded, test all services via these endpoints:
 | Endpoint                             | Function                |
 | ------------------------------------ | ----------------------- |
 | `http://localhost:3000/users`        | User service users list |
+
+ ![Alt Text](submission/screenshots/gateway-health.png)
 | `http://localhost:3001/products`     | Product service items   |
 | `http://localhost:3002/orders`       | Order service list      |
 | `http://localhost:3003/health`       | Gateway health check    |
@@ -148,7 +150,7 @@ kubectl delete -f submission/ingress/
 
 - **👨‍💻 Name:** Prince Thakur
 - **💼 Role:** DevOps / Data Engineer
-- **📧 Contact:** [LinkedIn](https://www.linkedin.com/in/prince-thakur-9b6ba3274/)
+- **📧 Contact:** [LinkedIn](https://www.linkedin.com/in/princethakur)
 
 ---
 
