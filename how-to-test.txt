@@ -1,0 +1,1 @@
+kubectl port-forward svc/gateway-service 3003:80
