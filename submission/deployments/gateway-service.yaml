@@ -16,21 +16,21 @@ spec:
         - name: gateway-service
           image: xxradeonxfx/gateway-service:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 3003
           env:
             - name: NODE_ENV
               value: "production"
           livenessProbe:
             httpGet:
               path: /health
-              port: 3000
+              port: 3003
             initialDelaySeconds: 15
             periodSeconds: 20
             failureThreshold: 5
           readinessProbe:
             httpGet:
               path: /health
-              port: 3000
+              port: 3003
             initialDelaySeconds: 10
             periodSeconds: 15
             failureThreshold: 5

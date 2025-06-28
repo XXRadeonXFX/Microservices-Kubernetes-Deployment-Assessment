@@ -6,6 +6,7 @@ spec:
   selector:
     app: gateway-service
   ports:
-    - port: 3003
+    - name: http
+      port: 80
       targetPort: 3003
   type: ClusterIP
